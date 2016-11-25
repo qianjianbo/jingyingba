@@ -1,0 +1,493 @@
+/*登录注册页面样式*/
+body{
+    min-width:0;
+}
+/*登录头部样式*/
+.loginheader{
+    width:100%;
+    height:90px;
+    background:#fff;
+}
+.loginheader .loginMiWidth{
+    height:90px;
+}
+.loginheader .log{
+    float:left;
+}
+.loginheader .log a{
+    float:left;
+    width:104px;
+    margin-top:26px;
+    padding-right:10px;
+    display:inline-block;
+}
+.loginheader .log span{
+    float:left;
+    color:#999999;
+    margin-top:30px;
+    display:inline-block;
+}
+.loginheader .loginnav{
+    float:right;
+}
+.loginnav .nav{
+    float:left;
+}
+.loginnav .nav ul{
+    float:left;
+}
+.loginnav .nav ul li{
+    float:left;
+    height:90px;
+    margin-left:50px;
+    line-height:90px;
+}
+.loginnav .nav ul li a{
+    color:#666;
+    display:block;
+    font-size:14px;
+}
+.loginnav .nav ul li a.on{
+    color:#29b572;
+}
+.loginnav .nav ul li a:hover{
+    color:#29b572;
+}
+.loginnav .nav p{
+    float:left;
+    height:90px;
+    cursor:pointer;
+    line-height:90px;
+    margin-left:40px;
+}
+.loginnav .nav p a{
+    color:#666;
+    font-size:14px;
+}
+.loginnav .nav p:hover a{
+    color:#29b572;
+}
+.loginnav .nav p:hover em{
+    background:url(../images/15ico_bg.png) no-repeat -1px -501px;
+}
+.loginnav .nav em{
+    width:13px;
+    height:13px;
+    margin-right:5px;
+    margin-bottom:-1px;
+    display:inline-block;
+    background:url(../images/15ico_bg.png) no-repeat -1px -481px;
+}
+/*登录头部样式*/
+/*登录框样式*/
+input:-webkit-autofill{
+  box-shadow: 0 0 0px 1000px white inset;
+}
+.logincentent{
+    width:100%;
+    min-height:600px;
+    background:url(../images/login_bg.jpg) no-repeat center;
+}
+.logincentent .loginMiWidth{
+    position:relative;
+    min-height:600px;
+}
+.logincentent .login{
+    right:0px;
+    top:76px;
+    width:320px;
+    padding-bottom:20px;
+    position:absolute;
+    background:#eef5ec;
+}
+.logincentent .login .logintitle{
+    height:50px;
+    line-height:50px;
+    background:#ffffff;
+    border-bottom:1px solid #cfcfcf;
+}
+.logincentent .login .logintitle a{
+    float:left;
+    width:160px;
+    color:#616161;
+    display:block;
+    text-align:center;
+}
+.logincentent .login .logintitle a:hover{
+    color:#29b572;
+    font-size:16px;
+    border-bottom:2px solid #29b572;
+}
+.logincentent .login .logintitle a.on{
+    color:#29b572;font-size:16px;
+    border-bottom:2px solid #29b572;
+}
+.logincentent .login .logincont{
+    padding:36px 30px 0px 30px;
+}
+.logincont form div.box{
+    width:258px;
+    height:20px;
+    line-height:20px;
+    padding:9px 0px;
+    margin-bottom:15px;
+    background:#ffffff;
+    border:1px solid #cccccc;
+}
+.logincont form div.on{
+    border:1px solid #29b572;
+}
+.logincont form div.redon{
+    border:1px solid #eb0000;
+}
+.logincont form div span{
+    float:left;
+    width:14px;
+    height:20px;
+    margin-right:12px;
+    padding-right:9px;
+    margin-left:10px;
+    display:inline-block;
+    border-right:1px solid #e8e8e8;
+}
+.logincont form .phone span{
+    background:url(../images/15ico_bg.png) no-repeat 0px 2px;
+}
+.logincont form .password span{
+    background:url(../images/15ico_bg.png) no-repeat 0px -23px;
+}
+.logincont form .password.redon{
+    border:1px solid #eb0000;
+}
+.logincont form .passwordend.redon{
+    border:1px solid #eb0000;
+}
+.logincont form div input{
+    float:left;
+    width:212px;
+    height:20px;
+    line-height:20px;
+    color:#333333;
+    border:none;
+    outline:medium;
+    font-family:"微软雅黑";
+}
+.logincont form .verification{
+    overflow:hidden;
+    margin-bottom:15px;
+}
+.logincont form .verification .verification_left{
+    float:left;
+    width:158px;
+    height:20px;
+    background:#fff;
+    padding:9px 0px;
+    border:1px solid #cccccc;
+}
+.logincont form .verification .verification_left.redon{
+    border:1px solid #eb0000;
+}
+.logincont form .verification .verification_left.on{
+    border:1px solid #29b572;
+}
+.logincont form .verification .verification_left span{
+    float:left;
+    width:14px;
+    height:20px;
+    margin-right:12px;
+    padding-right:9px;
+    margin-left:10px;
+    display:inline-block;
+    border-right:1px solid #e8e8e8;
+    background:url(../images/15ico_bg.png) no-repeat 0px -47px;
+}
+.logincont form .verification .verification_left input{
+    width:110px;
+}
+.logincont form .verification .verification_right{
+    float:right;
+    width:90px;
+    height:38px;
+    cursor:pointer;
+    background:#fff;
+    line-height:38px;
+    text-align:center;
+    border:1px solid #cccccc;
+}
+.logincont form .remembercont{
+    overflow:hidden;
+    font-size:12px;
+    margin-bottom:10px;
+}
+.logincont form .remembercont .remember{
+    float:left;
+    color:#848585;
+}
+.logincont form .remembercont .remember input[type="checkbox"]{
+    width: auto;
+    margin-right:4px;
+}
+.logincont form .remembercont .remember em{
+    width:13px;
+    height:13px;
+    margin-bottom:-2px;
+    margin-right:5px;
+    display:inline-block;
+    background:url(../images/15ico_bg.png) no-repeat -1px -74px;
+}
+.logincont form .remembercont .remember em.on{
+    background:url(../images/15ico_bg.png) no-repeat -1px -97px;
+}
+.logincont form .remembercont .forget{
+    float:right;
+}
+.logincont form .remembercont .forget a{
+    color:#848585;
+    cursor:pointer;
+}
+.logincont form .remembercont .forget a:hover{
+    color:#29b572;
+}
+.logincont form .button .submit{
+    width:260px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background:#29b572;
+    margin-bottom:30px;
+    color:#fff
+}
+.logincont form .button a{
+    color:#fff;
+    display:block;
+    font-size:16px;
+}
+.logincont form .button a:hover{
+    background:#029850;
+}
+.logincont form .button a.on{
+    background:#cccccc;
+}
+.logincont .thirdparty .thirdparty_title:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0;}
+.logincont .thirdparty .thirdparty_title i{
+    width:66px;
+    height:1px;
+    background:#cccccc;
+    display:inline-block;
+}
+.logincont .thirdparty .thirdparty_title i.left{
+    float:left;
+}
+.logincont .thirdparty .thirdparty_title i.right{
+    float:right;
+}
+.logincont .thirdparty .thirdparty_title p{
+    float:left;
+    width:128px;
+    color:#b0b0b7;
+    text-align:center;
+    margin-top:-10px;
+}
+.logincont .thirdparty .thirdparty_cont{
+    width:144px;
+    margin:0px auto;
+    margin-top:20px;
+}
+.logincont .thirdparty .thirdparty_cont a{
+    width:30px;
+    height:30px;
+    display:inline-block;
+}
+/*登录框样式*/
+/*注册框样式*/
+.logincentent .login .register{
+    display:none;padding:36px 30px 0px 30px;
+}
+.register form div.boxdiv{
+    width:258px;
+    height:20px;
+    padding:9px 0px;
+    line-height:20px;
+    margin-bottom:15px;
+    background:#ffffff;
+    border:1px solid #cccccc;
+}
+.register form div.boxdivt{
+    width:258px;
+    height:20px;
+    padding:9px 0px;
+    line-height:20px;
+    margin-bottom:15px;
+}
+.register form div.on{
+    border:1px solid #29b572;
+}
+.register form div.phone{
+    margin-bottom:15px;
+}
+.register form div.redon{
+    border:1px solid #eb0000 !important;
+}
+form div.error{
+    color:#eb0000;
+    font-size:12px;
+    margin-top:-5px;
+    margin-bottom:10px;
+}
+form div.error em{
+    width:14px;
+    height:14px;
+    margin-right:5px;
+    margin-bottom:-3px;
+    display:inline-block;
+    background:url(../images/15ico_bg.png) no-repeat -1px -146px;
+}
+.register form div span{
+    float:left;
+    width:14px;
+    height:20px;
+    margin-right:12px;
+    padding-right:9px;
+    margin-left:10px;
+    display:inline-block;
+    border-right:1px solid #e8e8e8;
+}
+.register form .phone span{
+    background:url(../images/15ico_bg.png) no-repeat 0px 2px;
+}
+.register form .password span{
+    background:url(../images/15ico_bg.png) no-repeat 0px -23px;
+}
+.register form .passwordend span{
+    background:url(../images/15ico_bg.png) no-repeat 0px -117px;
+}
+.register form div input:disabled{
+    color:#ccc;
+    background:#fff;
+}
+.register form div input{
+    float:left;width:212px;
+    height:20px;
+    line-height:20px;
+    color:#333333;
+    border:none;
+    outline:medium;
+    font-family:"微软雅黑";
+}
+.register form .verification{
+    overflow:hidden;
+    margin-bottom:15px;
+}
+.register form .verification .verification_left{
+    float:left;width:158px;
+    height:20px;
+    background:#fff;
+    padding:9px 0px;
+    border:1px solid #cccccc;
+}
+.register form .verification .verification_left span{
+    float:left;
+    width:14px;
+    height:20px;
+    margin-right:12px;
+    padding-right:9px;
+    margin-left:10px;
+    display:inline-block;
+    border-right:1px solid #e8e8e8;
+    background:url(../images/15ico_bg.png) no-repeat 0px -47px;
+}
+.register form .verification .verification_left input{
+    width:110px;
+    float:left
+}
+.register form .verification .verification_right{
+    float:right;
+    width:90px;
+    height:30px;
+    color:#29b572;
+    margin-top:4px;cursor:pointer;
+    background:#fff;line-height:30px;
+    text-align:center;
+    border-radius:3px;
+    border:1px solid #cccccc;
+    outline:none;
+}
+.register form .verification .verification_right:hover, .register form .verification .verification_right:focus{
+    border:1px solid #29b572;
+}
+.register form .verification .verification_right.on{
+    color:#fff;
+    background:#cccccc;
+}
+.register form .agree{
+    color:#848585;
+}
+.register form .agree input[type="checkbox"]{
+    width: auto;
+    margin-right:4px;
+    margin-top:2px}
+.register form .agree em{
+    width:14px;
+    height:14px;
+    margin-right:5px;
+    margin-bottom:-2px;
+    background:url(../images/15ico_bg.png) no-repeat -1px -74px;
+    display:inline-block;
+}
+.register form .agree a{
+    color:#848585;
+}
+.register form .agree em.on{
+    background:url(../images/15ico_bg.png) no-repeat -1px -97px;
+}
+.register form .submit{
+    color: #fff;
+    width:260px;
+    height:40px;
+    cursor:pointer;
+    margin-top:10px;
+    line-height:40px;
+    text-align:center;
+    margin-bottom:30px;
+    background:#29b572;
+}
+.register form .botton .submit {
+    color:#fff;
+    font-size:16px;
+    display:block;
+}
+.register form .submit a.on{
+    background:#cccccc !important;
+}
+.register form .submit a:hover{
+    background:#029850;
+}
+/*注册框样式*/
+/*底部样式*/
+.loginfooter{
+    width:100%;
+    height:54px;
+    text-align:center;
+    line-height:54px;
+    background:#fff;
+}
+.loginfooter .loginMiWidth span{
+    font-size:13px;
+    color:#808080;
+    margin-left:4px;
+}
+.loginfooter .loginMiWidth span.left{
+    padding-right:7px;
+}
+.loginfooter .loginMiWidth span a{
+    font-size:13px;color:#808080;
+}
+.loginfooter .loginMiWidth span a:hover{
+    color:#029850;
+}
+/*底部样式*/

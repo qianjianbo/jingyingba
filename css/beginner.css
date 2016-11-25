@@ -1,0 +1,82 @@
+/*新手入门*/
+.beginner{
+	margin:30px 0px;
+	overflow:hidden;
+}
+.beginner .beginner_left{
+	float:left;
+	width:171px;
+	background:#fff;
+}
+.beginner .beginner_left p{
+	width:171px;
+	height:48px;
+	line-height:48px;
+	padding-left:20px;
+}
+.beginner_left ul li{
+	width:151px;
+	height:48px;
+	cursor:pointer;
+	line-height:48px;
+	padding-left:20px;
+}
+.beginner_left ul li.on{
+	width:149px;
+	background:#fafafa;
+	border-left:2px solid #29b572;
+}
+#beginner_right0{
+	display:block;
+}
+.beginner .beginner_right{
+	float:right;
+	width:968px;
+	display:none;
+	background:#fff;
+	padding:42px 36px 80px 36px;
+}
+.beginner_right .beginner_right_cont{
+	
+}
+.beginner_right_cont .beginner_right_cont_title{
+	color:#333;
+	font-size:26px;
+	margin-bottom:17px;
+}
+.beginner_right_cont span{
+	color:#858585;
+	font-size:13px;
+	margin-right:15px;
+}
+.beginner_right_cont .beginner_cont{
+	width:968px;
+	margin-top:10px;
+	padding-top:32px;
+	text-align:center;
+	border-top:1px solid #e8e8e8;
+}
+.beginner_right_cont .beginner_cont p{	
+	font-size:16px;
+	text-indent:2em;
+	text-align:left;
+	line-height:30px;
+	margin-bottom:25px;
+}
+.beginner_right_cont .beginner_cont img{
+	display:block;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+.beginner_right_cont .beginner_cont .code{
+	margin:0px;
+	margin-left:30px;
+}
+.beginner_right_cont .beginner_cont span{
+	color:#333;
+	display:block;
+	text-align:left;
+	line-height:20px;
+	padding-left:30px;
+}
+/*新手入门*/

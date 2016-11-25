@@ -1,0 +1,121 @@
+//
+   Created by lanou on 16/9/18.
+//    头部样式
+doctype
+html
+    head
+        meta(charset="utf-8")
+        tltie
+        link(rel="stylesheet" type="text/css" href="../css/public.css")
+        link(rel="stylesheet" type="text/css" href="../css/login.css")
+    body
+        div.loginheader
+            div.loginMiWidth
+                div.log
+                    a(href="#")
+                        img(src="../images/log.png")
+                    span
+                        img(src="../images/113200.png")
+                div.loginnav
+                    div.nav
+                        ul
+                            li
+                                a(href="#" target="_self") IOS
+                            li
+                                a(href="#" target="_self") Android
+                            li
+                                a(href="#" target="_self")  Unity3D
+                            li
+                                a(href="#" target="_self")  h5
+                            li
+                                a(href="#" target="_self")  有问必答
+
+
+
+
+
+
+        //登录样式
+        div.logincentent
+            div.loginMiWidth
+                div.login
+                    div.logintitle
+                        a.loginbtn.on 登录
+                        a.registerbtn 注册
+                    div.logincont.wrap_box(style="display:block;")
+                        form(action="#" method="post" name="login")
+                            div.phone.box
+                                span
+                                input(name="phone" placeholder="请输入手机号" type="text")
+                            div.error
+                            div.password.box
+                                span
+                                input(name="password" placeholder="请输入密码" type="password")
+                            div.error
+                            div.verification
+                                div.verification_left
+                                    span
+                                    input(name="code" placeholder=" 验证码" type="text")
+                                div.verification_right
+                                    img(src="../images/verify.png" title="获取验证码" height="38" width="90")#code
+                                div.error
+                            div.remembercont
+                                p.remember 记住我
+                                    input.checkbox(name="auto" checked="checked" type="checkbox")
+                                p.forget
+                                    a(href="#") 忘记密码?
+                            div.error
+                            div.button
+                                input.submit(name="submit" value="登录" type="submit")
+
+
+
+
+                    //     注册样式
+                    div.register.wrap_box(style="display:none;")
+                        form(action="#" method="post" name="regist")
+                            div.phone.boxdiv
+                                span
+                                input(placeholder="请输入手机号" name="smsphone" type="text")#re_tel
+                            div.error
+                            div.verification
+                                div.verification_left
+                                    span
+                                    input(name="code" placeholder="图形验证码" type="text")
+                                div.verification_right
+                                    img(src="../images/verify.png" title="点击图片更换" height="38" width="90")#tcode
+                            div.error
+                            div.verification
+                                div.verification_left
+                                    span
+                                    input(placeholder="短信验证码" name="smscode" type="text")#re_codes
+                                a(href="javascript:void(0);").verification_right 获取验证码
+                            div.error
+                            div.password.boxdiv
+                                span
+                                input(placeholder="请输入密码" name="passwdF" type="password")#re_psd
+                            div.error
+                            div.passwordend.boxdiv
+                                span
+                                input(placeholder="请重新输入密码" name="passwdS" type="password")#re_psdes
+                            div.error
+                            div.agree.boxdivt
+                                input(name="agree" checked="checked" type="checkbox").checkbox
+                                a(href="#") 同意网站条款
+                            div.error
+                            div.button
+                                input.submit(name="submit" value="提交" type="submit")
+
+
+
+        //底部样式
+        div.loginfooter
+            div.loginMiWidth
+                span.left 蓝鸥科技有限公司©1997-2016 |
+                span
+                    a(href="#" target="_blank") 北京市海淀区清河毛纺路路南甲36号金五星商业大厦5层
+    script(src="../js/login.js")
+
+
+
+

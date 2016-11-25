@@ -1,0 +1,110 @@
+
+<!--Created by lanou on 16/9/18.
+-->
+<!--    头部样式--><!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <tltie></tltie>
+    <link rel="stylesheet" type="text/css" href="../css/public.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+  </head>
+  <body>
+    <div class="loginheader">
+      <div class="loginMiWidth">
+        <div class="log"><a href="#"><img src="../images/log.png"></a><span><img src="../images/113200.png"></span></div>
+        <div class="loginnav">
+          <div class="nav">
+            <ul>
+              <li><a href="#" target="_self">IOS</a></li>
+              <li><a href="#" target="_self">Android</a></li>
+              <li><a href="course.html" target="_self"> Unity3D</a></li>
+              <li><a href="#" target="_self"> h5</a></li>
+              <li><a href="#" target="_self"> 有问必答</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--登录样式-->
+    <div class="logincentent">
+      <div class="loginMiWidth">
+        <div class="login">
+          <div class="logintitle"><a class="loginbtn on">登录</a><a class="registerbtn">注册</a></div>
+          <div style="display:block;" class="logincont wrap_box">
+            <form action="#" method="post" name="login">
+              <div class="phone box"><span></span>
+                <input name="phone" placeholder="请输入手机号" type="text">
+              </div>
+              <div class="error"></div>
+              <div class="password box"><span></span>
+                <input name="password" placeholder="请输入密码" type="password">
+              </div>
+              <div class="error"></div>
+              <div class="verification">
+                <div class="verification_left"><span></span>
+                  <input name="code" placeholder=" 验证码" type="text">
+                </div>
+                <div class="verification_right"><img src="../images/verify.png" title="获取验证码" height="38" width="90" id="code"></div>
+                <div class="error"></div>
+              </div>
+              <div class="remembercont">
+                <p class="remember">记住我
+                  <input name="auto" checked="checked" type="checkbox" class="checkbox">
+                </p>
+                <p class="forget"><a href="#">忘记密码?</a></p>
+              </div>
+              <div class="error"></div>
+              <div class="button">
+                <input name="submit" value="登录" type="submit" class="submit">
+              </div>
+            </form>
+          </div>
+          <!--     注册样式-->
+          <div style="display:none;" class="register wrap_box">
+            <form action="#" method="post" name="regist">
+              <div class="phone boxdiv"><span></span>
+                <input placeholder="请输入手机号" name="smsphone" type="text" id="re_tel">
+              </div>
+              <div class="error"></div>
+              <div class="verification">
+                <div class="verification_left"><span></span>
+                  <input name="code" placeholder="图形验证码" type="text">
+                </div>
+                <div class="verification_right"><img src="../images/verify.png" title="点击图片更换" height="38" width="90" id="tcode"></div>
+              </div>
+              <div class="error"></div>
+              <div class="verification">
+                <div class="verification_left"><span></span>
+                  <input placeholder="短信验证码" name="smscode" type="text" id="re_codes">
+                </div><a href="javascript:void(0);" class="verification_right">获取验证码</a>
+              </div>
+              <div class="error"></div>
+              <div class="password boxdiv"><span></span>
+                <input placeholder="请输入密码" name="passwdF" type="password" id="re_psd">
+              </div>
+              <div class="error"></div>
+              <div class="passwordend boxdiv"><span></span>
+                <input placeholder="请重新输入密码" name="passwdS" type="password" id="re_psdes">
+              </div>
+              <div class="error"></div>
+              <div class="agree boxdivt">
+                <input name="agree" checked="checked" type="checkbox" class="checkbox"><a href="#">同意网站条款</a>
+              </div>
+              <div class="error"></div>
+              <div class="button">
+                <input name="submit" value="提交" type="submit" class="submit">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--底部样式-->
+    <div class="loginfooter">
+      <div class="loginMiWidth"><span class="left">蓝鸥科技有限公司©1997-2016 |</span><span><a href="#" target="_blank">北京市海淀区清河毛纺路路南甲36号金五星商业大厦5层</a></span></div>
+    </div>
+  </body>
+  <script src="../js/login.js"></script>
+  <script src="../js/validate.js"></script> 
+</html>
